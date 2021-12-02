@@ -1,7 +1,6 @@
 const baseData = require("./input.json");
 
 // Purely function solutions.
-
 // Part 1
 const getCoords = (data) => {
   const loop = (horizontal = 0, vertical = 0, i = 0, data = []) => {
@@ -54,6 +53,3 @@ const getCoordsWithAim = (data) => {
 const out = getCoordsWithAim(baseData);
 console.log(out);
 console.log(out.horizontal * out.vertical)
-/*
-Loop shoul go through array, keep a horizontal and vertical accumulators, needs original array, i
-*/
